@@ -1,13 +1,11 @@
+
 freehck.crontask
 =========
-
 This role is just a wrapper for the cron module.
-
 It creates the cron job in the same way.
 
 Role Variables
 --------------
-
 `crontask_file`: filename under `/etc/cron.d` to store your jobs in
 `crontask_name`: name for the job to perform
 `crontask_day`: day to run (default `'*'`)
