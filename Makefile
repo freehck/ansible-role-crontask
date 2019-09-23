@@ -1,6 +1,6 @@
 SHELL:=/bin/bash
 export BRANCH=$(shell echo $(CI_BUILD_REF_NAME) | tr '[:upper:]' '[:lower:]')
-export ROLE_NAME=ansible-role-var-loader
+export ROLE_NAME=ansible-role-crontask
 export STATIC_STORAGE_PATH=/var/www/file/public/$(ROLE_NAME)
 export STATIC_STORAGE_HOST=file.dc47.com
 export ROLE_TAR_ARCHIVE=$(ROLE_NAME).tgz
