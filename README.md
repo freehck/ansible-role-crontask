@@ -31,7 +31,7 @@ Role Variables
 Example Playbook
 ----------------
 
-    - role: crontask
+    - role: freehck.crontask
       crontask_file: "backups"
       crontask_name: "backup database"
       crontask_hour: "12"
